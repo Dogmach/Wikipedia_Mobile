@@ -5,7 +5,7 @@
   <img title="Emulation video" src="src/test/resources/media/browserStack-report.gif" width="400" height="500">
 </p>
 
-Пример отчета [BrowserStack](https://app-automate.browserstack.com/builds/24b289c72cfb524a615158210ef883ff2b97cf11/sessions/3e2600e31475600b0d45416d0cabc7b8d8bfa11f?auth_token=2bdeb033605fe5cb997c1bb117345a56996bb6cab4ba10f5dde0580c79858bfd)
+Пример отчета [BrowserStack](https://app-automate.browserstack.com/dashboard/v2/builds/58588d66846cd2f0a7c2f5e9feb27bd44b6172c9/sessions/c15e482b89f87a126395ee2a768e56e4742812ed)
 
 ### <img width="5%" title="Appium" src="src/test/resources/media/Appium.png"> Видеоотчет прохождения теста на Emulator
 <p align="left">
