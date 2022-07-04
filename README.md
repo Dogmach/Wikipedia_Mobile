@@ -1,4 +1,4 @@
-## Мобильная автоматизация тестирования Java, Appium, BrowserStack
+## Проект по автоматизации тестирования для мобильного приложения Wikipedia
 
 ### <img width="4%" title="BrowserStack" src="src/test/resources/media/bStack.png"> Видеоотчет прохождения теста на BrowserStack
 <p align="left">
