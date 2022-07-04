@@ -44,8 +44,8 @@ public class MobileTest extends TestBase {
 
     @Test
     void searchTest() {
-        step("Скип приветствия", () ->
-                $(MobileBy.id("org.wikipedia.alpha:id/fragment_onboarding_skip_button")).click());
+//        step("Скип приветствия", () ->
+//                $(MobileBy.id("org.wikipedia.alpha:id/fragment_onboarding_skip_button")).click());
         step("Тап на инпут search c заполнением поля", () -> {
             $(MobileBy.AccessibilityId("Search Wikipedia")).click();
             $(MobileBy.id("org.wikipedia.alpha:id/search_src_text")).setValue("BrowserStack");
