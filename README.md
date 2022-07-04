@@ -2,7 +2,7 @@
 
 ### <img width="4%" title="BrowserStack" src="src/test/resources/media/bStack.png"> Видеоотчет прохождения теста на BrowserStack
 <p align="left">
-  <img title="Emulation video" src="src/test/resources/media/browserStack-report.gif" width="400" height="500">
+  <img title="Emulation video" src="src/test/resources/media/browserStack-report.gif" width="600" height="500">
 </p>
 
 Пример отчета [BrowserStack](https://app-automate.browserstack.com/dashboard/v2/builds/58588d66846cd2f0a7c2f5e9feb27bd44b6172c9/sessions/c15e482b89f87a126395ee2a768e56e4742812ed)
