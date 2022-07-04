@@ -1,5 +1,6 @@
 package mobile.tests;
 
+import com.codeborne.selenide.Selenide;
 import io.appium.java_client.AppiumBy;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -45,13 +46,14 @@ public class MobileTest extends TestBase {
 
     @Test
     void searchTest() {
+        step("Skip onboarding", Selenide::back);
         step("Type search", () -> {
             $(AppiumBy.accessibilityId("Search Wikipedia")).click();
             $(AppiumBy.id("org.wikipedia.alpha:id/search_src_text"))
-                    .setValue("BrowserStack");
+                    .setValue("Appium");
         });
         step("Verify content found", () ->
-                $$(AppiumBy.className("android.widget.TextView"))
+                $$(AppiumBy.id("org.wikipedia.alpha:id/page_list_item_title"))
                         .shouldHave(sizeGreaterThan(0)));
     }
 }
